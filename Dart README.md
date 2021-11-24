@@ -6,7 +6,9 @@
 ##### 1. Node and Python2
 in cmd:
 
-`choco install -y nodejs.install python2 jdk8`
+```
+choco install -y nodejs.install python2 jdk8
+```
 
 
 ##### 2. JDK [Download](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe)
@@ -36,8 +38,8 @@ To do that, open Android Studio, click on "Configure" button and select "SDK Man
 - Select the "SDK Platforms" tab from within the SDK Manager
 - check the box next to "Show Package Details"
 - make sure the following items are checked:
-- [x] Android SDK Platform 29
-- [x] Intel x86 Atom_64 System Image or Google APIs Intel x86 Atom System Image
+ - [x] Android SDK Platform 29
+ - [x] Intel x86 Atom_64 System Image or Google APIs Intel x86 Atom System Image
 - select the "SDK Tools"
 - check the box next to "Show Package Details"
 - Look for and expand the "Android SDK Build-Tools"
@@ -71,3 +73,38 @@ Open a new Command Prompt window:
 The default location for this folder is:
 
 `%LOCALAPPDATA%\Android\Sdk\platform-tools`
+
+#### React Native Command Line Interface
+we recommend you access the current version at runtime using npx
+
+`npx react-native`
+
+### Creating a new application
+React Native has a built-in command line interface, which you can use to generate a new project. You can access it without installing anything globally using npx, which ships with Node.js. Let's create a new React Native project called "AwesomeProject":
+
+```
+npx react-native init AwesomeProject
+```
+### [Optional] Using a specific version or template
+If you want to start a new project with a specific React Native version
+```
+npx react-native init AwesomeProject --version X.XX.X
+```
+
+You can also start a project with a custom React Native template
+```
+npx react-native init AwesomeTSProject --template react-native-template-typescript
+```
+
+### Running your React Native application
+#### Step 1: Start Metro
+inside your React Native project folder:
+```
+npx react-native start
+```
+#### Step 2: Start your application
+Open a new terminal inside your React Native project folder. Run the following:
+```
+npx react-native run-android
+```
+If everything is set up correctly, you should see your new app running in your Android emulator shortly.
