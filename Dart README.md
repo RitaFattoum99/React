@@ -3,7 +3,7 @@
 ## Install for Windows
 ##### You will need Node, Python2, JDK and Android Studio.
 
-##### 1. Node and Python2
+### 1. Node and Python2
 in cmd:
 
 ```
@@ -11,8 +11,8 @@ choco install -y nodejs.install python2 jdk8
 ```
 
 
-##### 2. JDK [Download](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe)
-##### 3. Android Studio [Download](https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.25/android-studio-2020.3.1.25-windows.exe)
+### 2. JDK [Download](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe)
+### 3. Android Studio [Download](https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.25/android-studio-2020.3.1.25-windows.exe)
 
 ###### 1. Install Android Studio
 
