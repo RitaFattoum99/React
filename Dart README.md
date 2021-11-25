@@ -108,3 +108,5 @@ Open a new terminal inside your React Native project folder. Run the following:
 npx react-native run-android
 ```
 If everything is set up correctly, you should see your new app running in your Android emulator shortly.
+
+![GettingStartedAndroidSuccessWindows-](https://user-images.githubusercontent.com/92295682/143405936-ffd2f455-e9d2-44d2-8e7b-65dd0634ddbd.png)
